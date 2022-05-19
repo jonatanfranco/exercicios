@@ -1,0 +1,145 @@
+@charset "UTF-08";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    text-align: justify;
+    padding: 5px;
+}
+
+header>nav>a {
+    color: black;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+a.login {
+    color: #820AD1;
+    position: relative;
+    left: 30%;
+}
+
+main {}
+
+div {}
+
+.image {}
+
+.teste {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: inherit;
+    position: absolute;
+    top: 39%;
+    left: 13%;
+    text-align: center;
+    height: 100px;
+    width: 490px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: inherit;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    text-align: justify;
+    height: 100px;
+    width: 450px;
+}
+
+.solicitacartao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 37%;
+    left: 62%;
+    text-align: justify;
+    height: 240px;
+    width: 250px;
+    margin: 10px 20px 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cartao1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #820AD1;
+    font-size: 40px;
+    font-weight: inherit;
+    position: absolute;
+    text-decoration: none;
+    margin: 45px 45px 45px 45px;
+}
+
+.p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: inherit;
+    position: absolute;
+    margin: 80px 50px 50px 50px;
+    height: 150px;
+    width: 400px;
+    text-align: initial;
+}
+
+.article1 {
+    padding: 80px;
+    position: absolute;
+    right: 75px;
+    margin-top: -100px;
+}
+
+.saibamais {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #820AD1;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 47px;
+    position: absolute;
+    padding-top: 170px;
+}
+
+.contanu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #820AD1;
+    font-size: 40px;
+    font-weight: inherit;
+    position: absolute;
+    text-decoration: none;
+    margin: 450px 50px 50px 50px;
+}
+
+.p4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: inherit;
+    position: absolute;
+    margin: 500px 50px 50px 50px;
+    height: 190px;
+    width: 345px;
+    text-align: initial;
+}
+
+.articleIII {
+    padding: 75px;
+    position: absolute;
+    right: 75px;
+    margin-top: 300px;
+}
+
+main>div>h1 {}
+
+main>div>p {}

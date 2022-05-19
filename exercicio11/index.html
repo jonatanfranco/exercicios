@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5 E Audios</title>
+</head>
+<body>
+    <H1>Imagens Dinamicas</H1>
+    <p>Abra este site em diversos dispositivos ou dimiua  tamanha do navegador para ver as imagens dinamicas, diversos tamanhos para diversos tamanhos de dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexisivel">
+    </picture>
+
+    <p>PARA A IMAGEM MUDAR DE ACORDO COM O TAMANHO DA TELA, DEVE SE USAR A TAG PICTURE E A TAG SOURCE MEDIAE COLCOAR CONFORME O TAMANHO EXEMPLOS ACIMA</p>
+
+    <h2>REPRODUZIR AUDIOS</h2>
+    <P>Vamos aprender a reproduzir audios 1</P>
+    <audio src="midia/ERA - Ameno (128 kbps).mp3" controls autoplay>ERA- AMENO</audio>
+    <!--Formatos de audio tem mp3 / wave e ogg-->
+
+    <p>Temos este outro formato de codigo para abrir audio 2</p>
+    <audio preload="auto" autoplay controls>
+          <source src="midia/Wardruna - Lyfjaberg  (128 kbps).mp3" type="audio/mpeg">
+          <source src="midia/Wardruna - Lyfjaberg  (128 kbps).ogg" type="audio/ogg--">
+          <p>Inelizmente seu navagador nao tem display para musica, caso queira verificar, baixe o audio aqui <a href="midia/Wardruna - Lyfjaberg  (128 kbps).mp3>">Clic aqui</a></p>
+    </audio>
+        
+</body>
+</html>
