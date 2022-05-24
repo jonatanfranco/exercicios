@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes, modelo mais correto</title>
+    <style>
+        body {
+            font-family: arial, helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        
+        td.n {
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="n">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="n">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="n">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="n">14.016.906</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="n">10.444.526</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="n">10.693.929</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="n">6.248.436</td>
+            </tr>
+            <tr>
+                <td>Piauai</td>
+                <td class="n">3.118.360</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="n">2.5700.160</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="n">2.449.024</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="n">2.068.017</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="n">1.562.409</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="n">1.383.445</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="n">733.559</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="n">669.526</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="n">450.479</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Toal de Habitantes</th>
+            <td class="n"><strong>210 555 233</strong></td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
